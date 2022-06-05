@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: rgb(82, 155, 131);
+    margin-left: 16%;
+    
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color: rgb(82, 155, 131);
+    margin-left: 26%;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(53, 120, 140), rgb(11, 52, 38)) ;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: rgb(82, 155, 131);
+    margin-left: 30%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.1em;
+    color: rgb(82, 155, 131);
+    display: block;
+}
+
+fieldset.grup .campo{
+    float: left;
+    padding: 5px;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea input:hover{
+    padding: 0.2em;
+    border: 2px solid rgb(82, 155, 131);
+    box-shadow: 2px 2px 2px rgb(82, 155, 131);
+    display: block;
+}
+
+.campo input:hover{
+    background: #bfe2e9;
+    box-shadow: inset 1px 1px 1px #000000;
+    text-shadow: none;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.op{
+    float: left;
+    margin-left: 1px;
+    padding: 3px;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background-color: #ffffff;
+}
+
+.botao{
+    font-size: 1.2em;
+    background:rgb(82, 155, 131);
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.6em 0.9em;
+    box-shadow: 2px 2px 2px rgb(82, 155, 131);
+    text-shadow: 1px 1px 1px rgb(82, 155, 131);
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+}
+
+.botao:hover{
+    background-image: linear-gradient(to right, rgb(33, 69, 80), rgb(3, 22, 16)) ;;
+    box-shadow: inset 1px 1px 1px #000000;
+}
+
+#check{
+    display: inline-block;
+}
+
+.box{
+    position: absolute;
+    padding: 60px;
+    margin-left: 2%;
+    margin-right: 440px;
+    background-image: linear-gradient(to right, rgb(19, 71, 87), rgb(37, 58, 51));
+    border-radius: 20px;
+}
